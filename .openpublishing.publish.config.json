@@ -1,26 +1,27 @@
 {
   "build_entry_point": "docs",
-  "need_generate_pdf": false,
-  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
       "docset_name": "yunyunyunyunDocset1012072421",
       "build_source_folder": "yunyunyunyunDocset1012072421",
       "build_output_subfolder": "yunyunyunyunDocset1012072421",
       "locale": "en-us",
-      "version": 0,
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "template_folder": "_themes"
+      "template_folder": "_themes",
+      "version": 0
     }
   ],
   "notification_subscribers": [],
   "branches_to_filter": [],
+  "git_repository_url_open_to_public_contributors": "https://github.com/yunyunyunyun/test1",
+  "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
+  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -28,5 +29,9 @@
       "branch": "master",
       "branch_mapping": {}
     }
-  ]
+  ],
+  "branch_target_mapping": {},
+  "need_generate_pdf_url_template": false,
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false
 }
